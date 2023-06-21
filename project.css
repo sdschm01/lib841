@@ -1,0 +1,337 @@
+/* Going to zero out the margins and padding and manually set for each selector */
+
+* {
+    margin:0;
+    padding:0;
+}
+
+/* Applying the following settings to the body section in the HTML code */
+
+body {
+    background-color: palegoldenrod;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin:1;
+}
+
+
+/* Everything under .center-top-table class will get the following settings */
+
+.center-top-table {
+    font-family: Tahoma;
+    width: 70%;
+    height: 60px;    
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid;
+    border-color: black;
+    background-color: lightyellow;
+}
+
+/* Everything under .center-header-table td class will get the following settings */
+
+.center-header-table td {
+    /*border: 2px solid; */
+    text-align: left;
+    vertical-align: middle;
+    font-family: Tahoma;
+    font-size: large;    
+
+}
+
+/* Everything under .center-header-table class will get the following settings */
+
+  .center-header-table {
+    width: 70%;
+    height: 60px;    
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px dashed;
+    border-color: black;
+    background-color: lightyellow;
+}
+
+/* Everything under .center-top-table td class will get the following settings */
+
+.center-top-table td {
+    text-align: center;
+    vertical-align: middle;
+    font-family: Tahoma;
+    font-size: large;
+  }
+
+/* Everything under .container class will get the following settings */
+
+.container{
+    width:70%;
+    margin:auto;
+
+}
+
+/* Everything under .top-header-menu class will get the following settings */
+
+.top-header-menu{
+    font-family: Tahoma;
+    background-color:yellow;
+    color:white;
+    text-align: center;
+        
+    border-top:1px black dashed;
+    border-left: 1px black dashed;
+    border-right: 1px black dashed;
+    border-bottom: 1px black dashed;
+    /* border-bottom: 1px red solid; */ 
+    border-width: 5px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+/* Everything under .top-header-box class will get the following settings */
+
+.top-header-box{
+    font-family: Tahoma;
+    background-color: cornflowerblue;
+    color: black;
+
+    border-top:1px red dotted;
+    border-left: 1px red dotted;
+    border-right: 1px red dotted;
+    border-bottom: 1px red dotted;
+    /* border-bottom: 1px red solid; */ 
+    border-width: 5px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+/* .top-header-box h1 tag will get the following settings.  This H1 tag is inside the .top-header-box and will inherit these settings */
+
+.top-header-box h1{
+    color:black;
+    font-family: Tahoma;
+    font-weight: bold;
+    /*font-style: italic; */
+    text-align: center;
+    /* text-decoration: underline; */
+    width: 70%;
+    margin:auto;
+}
+
+/* .top-header-box h2 tag will get the following settings.  This H2 tag is inside the .top-header-box and will inherit these settings */
+
+.top-header-box h2{
+    color:black;
+    font-family: Tahoma;
+    /*font-weight: bold; */
+    /*font-style: italic; */
+    text-align: center;
+    /* text-decoration: underline; */
+    width: 70%;
+    margin:auto;
+}
+
+/* .top-header-box h3 tag will get the following settings.  This H3 tag is inside the .top-header-box and will inherit these settings */
+
+.top-header-box h3{
+    color:black;
+    font-family: Tahoma;
+    /*font-weight: bold; */
+    /*font-style: italic; */
+    text-align: center;
+    text-decoration: underline;
+    width: 70%;
+    margin:auto;
+}
+
+/* .top-header-box img tag will get the following settings.  This image tag is inside the .top-header-box and will inherit these settings */
+
+.top-header-box img {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin:auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+ 
+}
+
+/* Everything under .paragraph-box-1 class will get the following settings */
+
+.paragraph-box-1{
+    font-family: Tahoma;
+    background-color: cornflowerblue;
+    color:white;
+
+    /*border-top:1px red solid; */
+    /* border-bottom: 1px red solid; */ 
+    border-width: 5px;
+    margin-top: 3em;
+    
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    padding-bottom: 10px;   
+
+}
+
+/* the h2 tag in the paragraph-box-1 class will get the following settings */
+
+.paragraph-box-1 h2{
+    font-family: Tahoma;
+    color:blue;
+    font-weight: bold;
+    text-decoration: underline;   
+    padding-top: 10px;
+    padding-bottom: 15px; 
+}
+
+/* .paragraph-box-1 img tag will get the following settings.  This image tag is inside the .paragraph-box-1 and will inherit these settings */
+
+.paragraph-box-1 img {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin:auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+     
+}
+
+/* the ul tag in the paragraph-box-1 class will get the following settings */
+
+.paragraph-box-1 ul {
+    margin-left: 15px;
+    padding-bottom: 10px;
+
+}
+
+/* Everything under .paragraph-box-2 class will get the following settings */
+
+.paragraph-box-2 {
+    font-family: Tahoma;
+    background-color:coral;
+    color:white;
+
+    /* border-top:3px red solid; */
+    /* border-bottom: 3px red solid; */
+    border-width: 5px;
+
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* the h2 tag in the paragraph-box-2 class will get the following settings */
+
+.paragraph-box-2 h2 {
+    font-family: Tahoma;
+    color:blue;
+    font-weight: bold;
+    text-decoration: underline;   
+    padding-bottom: 15px; 
+}
+
+/* the ul tag in the paragraph-box-2 class will get the following settings */
+
+.paragraph-box-2 ul {
+    margin-left: 15px;
+    padding-bottom: 10px;
+
+}
+/* Everything under .paragraph-box-3 class will get the following settings */
+
+.paragraph-box-3 {
+    font-family: Tahoma;
+    background-color:cornflowerblue;
+    color:white;
+
+    /* border-top:3px red solid; */
+    /*border-bottom: 1px red solid; */
+    border-width: 5px;
+
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+/* the h2 tag in the paragraph-box-3 class will get the following settings */
+
+.paragraph-box-3 h2 {
+    font-family: Tahoma;
+    color:blue;
+    font-weight: bold;
+    text-decoration: underline;   
+    padding-bottom: 15px; 
+}
+
+/* the ul tag in the paragraph-box-3 class will get the following settings */
+
+.paragraph-box-3 ul {
+    margin-left: 15px;
+    padding-bottom: 10px;
+
+}
+
+/* the a tag in the paragraph-box-3 class will get the following settings */
+
+.paragraph-box-3 a {
+    font-weight: bold;
+}
+
+/* .paragraph-box-3 img tag will get the following settings.  This image tag is inside the .paragraph-box-3 and will inherit these settings */
+
+.paragraph-box-3 img {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+    height: 150px;
+    float: right;
+    margin:auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+ 
+}
+
+.center-bottom-table {
+    width: 100%;
+    height: 60px;    
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid;
+    border-color: black;
+    background-color: lightyellow;
+}
+
+/* Everything under .center-top-table td class will get the following settings */
+
+.center-bottom-table td {
+    column-span: 2;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Tahoma;
+    font-size: large;
+  }
